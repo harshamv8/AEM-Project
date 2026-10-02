@@ -2,6 +2,10 @@
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
+AEM archtype
+mvn org.apache.maven.plugins:maven-archetype-plugin:3.3.1:generate -DarchetypeGroupId=com.adobe.aem -DarchetypeArtifactId=aem-project-archetype -DarchetypeVersion=57 -DgroupId=com.mysite -DartifactId=mysite -Dversion=1.0.0-SNAPSHOT -Dpackage=com.mysite -DappTitle="My Site" -DappId=mysite -DartifactName="My Site" -DpackageGroup=mysite -DaemVersion=cloud -DincludeDispatcherConfig=n -DincludeExamples=n -DfrontendModule=none -DinteractiveMode=false
+
+
 ## Modules
 
 The main parts of the template are:
